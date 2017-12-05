@@ -15,7 +15,7 @@ const printNumber = num => {
   return str;
 };
  
-// quick and dirty; could probable generate array and then use that
+// print the data
 for (let i = 1; i <= 100; i++) {
   console.log(printNumber(i));
 }
